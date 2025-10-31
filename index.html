@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WeatherNow</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="logo-header">
+    <img src="weather-logo-optimized.png" alt="WeatherNow Logo" class="logo-img">
+    <div class="logo-text-group">
+      <h1 class="logo-title">WeatherNow</h1>
+      <p class="subtitle">Live-Wetter • Unwetter-Spotlight</p>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <main class="grid">
+    <!-- Unwetter -->
+    <section class="panel">
+      <h2>⚠️ Unwetter-Spotlight</h2>
+      <p class="hint">Zeigt Städte mit Gewitter, Starkregen oder Schnee.</p>
+      <div class="severe-box card-list"></div>
+    </section>
+
+    <!-- Suche / Ergebnis -->
+    <section class="panel">
+      <div class="search">
+        <input id="cityInput" type="text" placeholder="Stadt eingeben…" autocomplete="off"/>
+        <button id="searchBtn" class="btn">Suchen</button>
+      </div>
+      <div class="weather-box card"></div>
+    </section>
+
+    <!-- Weltweit -->
+    <section class="panel">
+      <h2>🌍 Weltweit</h2>
+      <div class="world-box card"></div>
+    </section>
+  </main>
+
+  <footer class="footer">Built by Armin • OpenWeather API • GitHub-ready</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+git branch -M main
+git remote add origin https://github.com/SL1ZE94/weathernow.git 
+git push -u origin main
+
