@@ -24,7 +24,7 @@ mit direkter **OpenWeather API**-Anbindung und elegantem, dunklem Design.
 
 👉 **[Hier ansehen auf GitHub Pages](https://sl1ze94.github.io/weathernow/)**  
 
-*(Falls der Link noch nicht funktioniert: Warte 1–2 Minuten nach dem Aktivieren von GitHub Pages.)*
+
 
 ---
 
@@ -33,3 +33,4 @@ mit direkter **OpenWeather API**-Anbindung und elegantem, dunklem Design.
 1. Repository klonen oder herunterladen  
    ```bash
    git clone https://github.com/SL1ZE94/weathernow.git
+
